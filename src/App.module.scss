@@ -1,0 +1,19 @@
+.AppContainer {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.AppContainer h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  
+    &:hover {
+      transform: scale(1.05); 
+    }
+  
+}
