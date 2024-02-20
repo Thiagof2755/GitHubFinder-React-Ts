@@ -16,6 +16,11 @@
     transform: scale(1.03); /* Ajustei o valor da escala para uma animação sutil */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentei a intensidade da sombra no hover */
   }
+  @media (max-width: 768px) {
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
 }
 
   
