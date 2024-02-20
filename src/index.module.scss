@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #0e1129;
+    }
+    25% {
+        background-color: #2c3e50; /* Ajustei para 25% para preencher mais o espectro de cores */
+    }
+    50% {
+        background-color: #34495e; /* Adicionei outra cor intermediária */
+    }
+    75% {
+        background-color: #2c3e50; /* Cor intermediária */
+    }
+    100% {
+        background-color: #0e1129;
+    }
+}
+
+body {
+    background-color: #0e1129;
+    padding: 2em;
+    animation: backgroundAnimation 30s infinite; /* Aumentei a duração da animação */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

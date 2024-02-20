@@ -1,0 +1,95 @@
+.UserContainer {
+    animation: fadeIn 1s ease-in-out;
+    background: #35414f;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Aumentei o raio para uma borda mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra para dar profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionei a transição para a sombra */
+  
+    &:hover {
+      transform: scale(1.03); /* Ajustei o valor da escala para uma animação sutil */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentei a intensidade da sombra no hover */
+    }
+  
+}
+
+.UserImg {
+    max-width: 200px;
+    border: 4px solid #0e1129;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.UserBio {
+    animation: fadeIn 2s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UserLocation {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UserInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.UserInfo > div {
+    
+    background: #28233b;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+  
+.UserInfo p {
+    margin: 0;
+    font-size: 14px;
+}
+  
+.UserInfo p > svg {
+    margin-right: 5px;
+}
+
+.UserLinks {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.UserLink {
+    background: #0e1129;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #35418f;
+    }
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
