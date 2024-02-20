@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Finder é um aplicativo desenvolvido em React com Vite que permite aos usuários encontrar perfis de usuários do GitHub. Com este aplicativo, os usuários podem pesquisar por nomes de usuário do GitHub e visualizar informações detalhadas sobre esses usuários, incluindo foto de perfil, biografia, localização, número de seguidores, seguindo, entre outros dados.
 
-Currently, two official plugins are available:
+### Objetivo
+O objetivo principal do GitHub Finder é fornecer uma experiência de pesquisa de perfis de usuários do GitHub de forma rápida e fácil. Este projeto foi concebido para demonstrar o uso de tecnologias modernas e servir como uma base para aplicativos mais complexos que envolvam integração com a API do GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bem-vindo ao GitHub Finder e encontre seus perfis de usuários do GitHub favoritos!
 
-## Expanding the ESLint configuration
+[Teste Aqui](https://git-hub-finder-react-ts.vercel.app/).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Capturas de Tela
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+![Tela de Pesquisa](./src/assets/Githubfinder.png)
+
+
+## Tecnologias Utilizadas
+
+O GitHub Finder utiliza as seguintes tecnologias e ferramentas:
+
+- React
+- Vite
+- Sass (com CSS Modules)
+- React Router
+
+## Instalação
+
+Para executar o GitHub Finder localmente, siga as instruções abaixo:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Thiagof2755/GitHubFinder-React-Ts.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navegue até o diretório do projeto:
+
+```bash
+cd GitHubFinder-React-Ts
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+## Como Usar
+
+Para iniciar o servidor local e executar o GitHub Finder, execute o seguinte comando:
+
+```bash
+npm run dev
+```
+
+Isso iniciará o aplicativo em seu navegador padrão. Você pode então começar a pesquisar por perfis de usuários do GitHub.
+
+## Contribuindo
+
+Se você quiser contribuir com o GitHub Finder, siga estas etapas:
+
+1. Abra uma issue para discutir a mudança que você gostaria de fazer.
+2. Faça um fork do repositório e crie um branch para sua contribuição.
+3. Envie suas alterações com um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
