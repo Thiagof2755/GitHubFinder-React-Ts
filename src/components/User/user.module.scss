@@ -34,6 +34,10 @@
     animation: fadeIn 2s ease-in-out;
     margin-top: 10px;
     margin-bottom: 10px;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+
 }
 
 .UserLocation {
